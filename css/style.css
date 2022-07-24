@@ -16,7 +16,7 @@ body {
 }
 .container .col-1 {
   width: 400px;
-  background: url("/images/image-product-desktop.jpg");
+  background: url("../images/image-product-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px 0 0 10px;
