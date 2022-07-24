@@ -1,0 +1,83 @@
+body{
+    background-color: #f2e9e2;
+    min-width: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 10em;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    .col-1{
+        width: 400px;
+        background: url('/images/image-product-desktop.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px 0 0 10px;
+    }
+    .col-2{
+        width: 400px;
+        .category{
+            padding: 25px 40px; 
+            font-family: 'Montserrat';
+            letter-spacing: 5px;
+            color: hsl(228, 12%, 48%);
+            font-weight: 500;
+        }
+        .product-name{
+            padding: 0px 40px; 
+            font-family: 'Fraunces';
+            font-size: 38px;
+        }
+        .product-desc{
+            padding: 0px 40px; 
+
+            font-family: 'Montserrat';
+            font-weight: 500;
+            color: #a1a1a1;
+        }
+        .price{
+            padding: 0px 40px; 
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h1{
+                font-family: 'Fraunces';
+                color: hsl(158, 36%, 37%);
+                font-size: 3em;
+            }
+            p{
+                margin-left: 20px;
+                font-family: 'Montserrat';
+                text-decoration: line-through;
+            }
+        }
+        .add-to-cart{
+            background-color: hsl(158, 36%, 37%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0px 40px 45px 40px; 
+
+            &:hover{
+                background-color: hsl(158, 35%, 21%);
+                transition: .2s ease;
+            }
+            img{
+                width: 18px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
